@@ -16,6 +16,25 @@
   <!-- Argon CSS -->
   <link rel="stylesheet" href="/static/assets/css/argon.css?v=1.2.0" type="text/css">
 
+  <style>
+    table.dataTable{border-collapse:collapse !important;}
+    .dataTables_length label{
+        /* margin-top: 15px; */
+        display: inline-flex;
+        /* width: 200px; */
+    }
+    .dataTables_wrapper {
+        margin-bottom: 20px;
+    }
+    .dt-buttons{
+        padding-top:10px;
+        padding-bottom:10px;
+        flex-wrap: wrap;
+    }
+    .dataTables_filter{
+      margin-top: 12px;
+    }
+  </style>
   <!-- Specific CSS goes HERE -->
   {% block stylesheets %}{% endblock stylesheets %}
 </head>
